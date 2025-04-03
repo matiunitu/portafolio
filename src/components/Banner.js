@@ -18,13 +18,13 @@ export const Banner = () => {
     let updatedText = isDeleting
       ? fullText.substring(0, text.length - 1)
       : fullText.substring(0, text.length + 1);
-
+  
     setText(updatedText);
-
+  
     if (isDeleting) {
       setDelta(prevDelta => prevDelta / 2);
     }
-
+  
     if (!isDeleting && updatedText === fullText) {
       setIsDeleting(true);
       setDelta(period);
@@ -33,15 +33,7 @@ export const Banner = () => {
       setLoopNum(loopNum + 1);
       setDelta(500);
     }
-  }, [loopNum, isDeleting, text, period]);
-
-  useEffect(() => {
-    let ticker = setInterval(() => {
-      tick();
-    }, delta);
-
-    return () => clearInterval(ticker);
-  }, [delta, tick]);
+  }, [loopNum, isDeleting, text, period, toRotate]);
 
   return (
     <section className="banner" id="home">
