@@ -3,14 +3,11 @@ import meter2 from "../assets/img/meter2.svg";
 import meter3 from "../assets/img/meter3.svg";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import arrow1 from "../assets/img/arrow1.svg";
-import arrow2 from "../assets/img/arrow2.svg";
-import colorSharp from "../assets/img/color-sharp.png"
+import colorSharp from "../assets/img/color-sharp.png";
 
 export const Skills = () => {
   const responsive = {
     superLargeDesktop: {
-      // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
       items: 5
     },
@@ -38,23 +35,23 @@ export const Skills = () => {
                         <p>Soy un desarrollador front-end en formación full-stack, especializado en diseño responsivo, accesibilidad y creación de experiencias web interactivas. Disfruto trabajar en equipo y gestionar proyectos de manera eficiente. Tengo experiencia en el manejo de APIs y bases de datos, integrando sistemas de forma fluida. Me apasiona resolver problemas y mejorar continuamente mis habilidades para desarrollar soluciones innovadoras</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={meter1} alt="React" />
                                 <h5>React</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={meter1} alt="Desarrollo Web" />
                                 <h5>Web Development</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
-                                <h5>Apis Y Nosql</h5>
+                                <img src={meter2} alt="APIs y NoSQL" />
+                                <h5>APIs y NoSQL</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Image" />
-                                <h5>JavaScrip</h5>
+                                <img src={meter3} alt="JavaScript" />
+                                <h5>JavaScript</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={meter1} alt="Front-end" />
                                 <h5>Front-end</h5>
                             </div>
                         </Carousel>
@@ -62,7 +59,7 @@ export const Skills = () => {
                 </div>
             </div>
         </div>
-        <img className="background-image-left" src={colorSharp} alt="Image" />
+        <img className="background-image-left" src={colorSharp} alt="Decoración" />
     </section>
-  )
-}
+  );
+};
