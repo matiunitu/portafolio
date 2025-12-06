@@ -43,16 +43,20 @@ export const Skills = () => {
                                 <h5>Web Development</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="APIs y NoSQL" />
-                                <h5>APIs y NoSQL</h5>
+                                <img src={meter3} alt="Node.js|Expressjs|NextjsL" />
+                                <h5>Node.js|Expressjs|Nextjs</h5>
                             </div>
                             <div className="item">
                                 <img src={meter3} alt="JavaScript" />
                                 <h5>JavaScript</h5>
                             </div>
+                                <div className="item">
+                                <img src={meter3} alt="APIs y NoSQL" />
+                                <h5>APIs y NoSQL</h5>
+                            </div>
                             <div className="item">
                                 <img src={meter1} alt="Front-end" />
-                                <h5>Front-end</h5>
+                                <h5>FullStack</h5>
                             </div>
                         </Carousel>
                     </div>

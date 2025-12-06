@@ -3,6 +3,7 @@ import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
 import projImg4 from "../assets/img/project-img4.png";
+import projImg5 from "./assets/img/project-img5.png;"
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -29,24 +30,31 @@ export const Projects = () => {
       imgUrl: projImg4,
       url: "https://iefun-weside-r-git-main-matiunitus-projects.vercel.app"
     },
+      {
+      title: "EmojisCliker",
+      description: "Firebase / React",
+      imgUrl: projImg5,
+      url: "https://emojiscliker.vercel.app/"
+    },
     {
       title: "Comment web page",
       description: "React",
       imgUrl: projImg1,
-      url: "https://67ec8fb0df0efde8daa89a83--find-a-repository-testimonials-from-a.netlify.app/"
+      url: "https://find-a-repository-testimonials-from-a.netlify.app/"
     },
     {
       title: "Task-List",
       description: "React",
       imgUrl: projImg2,
-      url: "https://67ecb6e5c2535a1e852d6b81--task-lis.netlify.app/"
+      url: "https://task-lis.netlify.app/"
     },
     {
-      title: "Calculator",
-      description: "React Calculator",
+      title: "FakeapiStore",
+      description: "React / api",
       imgUrl: projImg3,
-      url: "https://67ecd152db1aa7b3efa9d5dc--calculeitors.netlify.app/"
+      url: "https://website-with-api-fakestore.netlify.app/"
     },
+
   ];
 
   return (

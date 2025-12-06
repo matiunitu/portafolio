@@ -53,7 +53,7 @@ export const Banner = () => {
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                   <span className="tagline">Bienvenido a Mi Portafolio</span>
                   <h1>{`Hola! Soy Mathew `}<span className="txt-rotate" dataPeriod="1000"><span className="wrap">{text}</span></span></h1>
-                  <p>Soy Mathew, un desarrollador front-end con dominio de varios lenguajes. Actualmente, estoy estudiando para ser desarrollador full-stack. Soy responsable, trabajo bien en equipo y llevo tres años en el vasto mundo de la programación.</p>
+                  <p>Soy Mathew, un desarrollador FullStack que se dedica al desarollo web tanto en la parte de frontend y del backend con mucha habilidades</p>
                 </div>}
             </TrackVisibility>
           </Col>
