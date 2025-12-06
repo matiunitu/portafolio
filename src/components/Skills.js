@@ -51,7 +51,7 @@ export const Skills = () => {
                                 <h5>JavaScript</h5>
                             </div>
                                 <div className="item">
-                                <img src={meter3} alt="APIs y NoSQL" />
+                                <img src={meter2} alt="APIs y NoSQL" />
                                 <h5>APIs y NoSQL</h5>
                             </div>
                             <div className="item">
